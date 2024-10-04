@@ -1,6 +1,10 @@
-%One transition of NUTS from initial state th0 with step size step_size/R and
-%maximal number of iterations M in the orbit selection (yields a maximal physical
-%time orbit length of step_size/R*(2^M-1))
+%One transition of NUTS
+%Inputs:  th0 initial state
+%         step_size and reduction factor R yielding en effective step size of step_size/R
+%         M maximal number of iterations in the orbit selection
+%Outputs: thstar new state
+%         L path length index selected in the transition
+%         OL physical time length of orbit selected in the transition
 
 function [thstar, L, OL] = nuts(th0,step_size,R,M)
 
