@@ -11,6 +11,7 @@ To reproduce Figure 5, first run 'figure5_data.m' to produce and save the requir
 To experiment with NUTS in the standard Gaussian target, use:
 - nuts.m                containing a function making one NUTS transition
 - nuts_sync_coupling.m  containing a function synchronously coupling two transitions of NUTS
+
 The remaining files contain functions called by nuts and nuts_sync_coupling
 
 ## License and Citation
