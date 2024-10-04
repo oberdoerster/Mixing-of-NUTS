@@ -4,7 +4,7 @@ This repository contains a functional implementation of NUTS in the standard Gau
 
 ## Use guide
 
-To reproduce Figure 4, first run 'figure4_data.m' to produce and save the required data, followed by 'figure4_plot.m'.
+To reproduce Figure 4, first run 'figure4_data.m' to produce and save the required data, followed by 'figure4_plot.m'.\\
 To reproduce Figure 5, first run 'figure5_data.m' to produce and save the required data, followed by 'figure5_plot.m'.
 
 To experiment with NUTS in the standard Gaussian target, use:
