@@ -1,4 +1,4 @@
-%Produces Figure 5 with the results of nuts_coupling.m
+%Produces the three plots of Figure 4 from the results of figure4_data.m
 
 clear all;
 close all;
