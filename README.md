@@ -1,6 +1,6 @@
 # Mixing of the No-U-Turn Sampler and the Geometry of Gaussian Concentration
 
-This repository contains a MATLAB implementation of NUTS applied to a standard Gaussian target.  It is used to produce Figures 4 and 5 in the paper 'Mixing of the No-U-Turn Sampler and the Geometry of Gaussian Concentration' by Nawaf Bou-Rabee and Stefan Oberdörster.
+This repository contains a MATLAB implementation of NUTS applied to a standard Gaussian target, along with a synchronous coupling of two NUTS chains.  The code can be used to produce Figures 4 and 5 in the paper 'Mixing of the No-U-Turn Sampler and the Geometry of Gaussian Concentration' by Nawaf Bou-Rabee and Stefan Oberdörster.  These figures illustrate the main result of the paper (Theorem 2).  
 
 ## Use guide
 
