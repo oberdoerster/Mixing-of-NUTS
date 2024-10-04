@@ -1,3 +1,11 @@
+%One transition of synchronously coupled copies of NUTS
+%Inputs:  th0,th0_tilde initial states of the copies
+%         step_size and reduction factor R yielding en effective step size of step_size/R
+%         M maximal number of iterations in the orbit selection
+%Outputs: thstar,thstar_tilde new states of the copies
+%         L,L_tilde path length indices selected in the transitions
+%         OL,OL_tilde physical time lengths of orbits selected in the transitions
+
 function [thstar, L, OL, thstar_tilde, L_tilde, OL_tilde] = nuts_sync_coupling(th0,th0_tilde,step_size,R,M)
 
 d=length(th0);
