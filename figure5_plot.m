@@ -1,4 +1,4 @@
-%Produces Figure 5 with the results of nuts_norm.m
+%Produces the four plots of Figure 5 from the results of figure5_data.m
 
 close all;
 clear all;
