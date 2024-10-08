@@ -21,7 +21,7 @@ set(gca,'yscale','log')
 axes('Position',[.2 .2 .3 .3]);
 hold on;
 box on;
-histogram(h*L_vec,(-2*pi:4*h:2*pi),'FaceColor','k','Normalization','pdf');
+histogram(h*L_vec,(-2*pi:4*h:2*pi),'FaceColor',[0.5,0.5,0.5],'Normalization','pdf');
 xticks([-2*pi -pi 0 pi 2*pi])
 xticklabels({'-2\pi','-\pi','0','\pi','2\pi'})
 set(gca,'fontsize', 20);
@@ -46,7 +46,7 @@ set(gca,'yscale','log')
 axes('Position',[.2 .2 .3 .3]);
 hold on;
 box on;
-histogram(h*L_vec,(-32*pi:64*h:32*pi),'FaceColor','k','Normalization','pdf');
+histogram(h*L_vec,(-32*pi:64*h:32*pi),'FaceColor',[0.5,0.5,0.5],'Normalization','pdf');
 xticks([-32*pi 0 32*pi])
 xticklabels({'-32\pi','0','32\pi'})
 set(gca,'fontsize', 20);
@@ -71,7 +71,7 @@ set(gca,'yscale','log')
 axes('Position',[.2 .2 .3 .3]);
 hold on;
 box on;
-histogram(h*L_vec,(-2*pi:4*h:2*pi),'FaceColor','k','Normalization','pdf');
+histogram(h*L_vec,(-2*pi:4*h:2*pi),'FaceColor',[0.5,0.5,0.5],'Normalization','pdf');
 xticks([-2*pi -pi 0 pi 2*pi])
 xticklabels({'-2\pi','-\pi','0','\pi','2\pi'})
 set(gca,'fontsize', 20);
